@@ -105,6 +105,18 @@ export default {
 ## 初始化参数
 [编辑器初始化参数](http://kindeditor.net/docs/option.html)
 
+## 改目录下已经解决图片上传跨域问题
+(src/assets/util/kindeditor-all.js)
+## 使用方式
+[1、](npm install vue-kindeditor && npm install kindeditor)
+[2、main.js引入]
+```js
+import VueKindEditor from 'vue-kindeditor' 
+import 'kindeditor/kindeditor-all-min.js' 
+import 'kindeditor/themes/default/default.css' 
+ Vue.use(VueKindEditor)
+ ```
+
 ## 演示
 [我是demo](https://github.com/ff755/vue-kindedtior-demo)
 
